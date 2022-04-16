@@ -1,0 +1,97 @@
+/*Last edited 4/16/2022 - Bryce Picklesimer*/
+.common {
+    position: absolute;
+    background-color: darkslategray;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 4px #555555;
+}
+.body {
+    top: 110px;
+    left: 5px;
+    right: 5px;
+    bottom: 110px;
+    border: solid 10px black;
+}
+.subbody1 {
+    top: 100px;
+    left: 0px;
+    width: 400px;
+    bottom: 110px;
+    z-index: 1;
+}
+.sub1 {
+    top:0px;
+    left: 0px;
+    width: 400px;
+    bottom: 50px;
+}
+
+.subbody2 {
+    top: -252px;
+    left: 400px;
+    width: 400px;
+    bottom: 110px;
+}
+.sub2 {
+    top:-200px;
+    left: 400px;
+    width:350px;
+    bottom:50px;
+}
+
+.subbody3 {
+    top: 240px;
+    left: 806px;
+    width: 400px;
+    bottom: 1000px;
+}
+
+.subbody4 {
+    top: -120px;
+    left: 1200px;
+    width: 400px;
+    bottom: 100px;
+}
+
+.chart-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.chart-container chart{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.subheader {
+    float: right;
+}
+
+p {
+    font-style: italic;
+    color: white;
+}
+
+a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    bottom: 20px;
+}
